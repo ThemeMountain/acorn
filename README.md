@@ -25,7 +25,7 @@ If you found a bug or would like to suggest a feature, please [open an issue](ht
 
 ## Pine
 
-Need a more complex, 12 column grid system? Checkout [Pine](https://github.com/ThemeMountain/tm-pine).
+Need a more complex, 12 column grid system? Checkout [Pine](https://github.com/ThemeMountain/pine).
 
 ## In The Wild
 
