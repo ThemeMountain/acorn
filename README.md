@@ -17,7 +17,7 @@ A responsive email framework based on a golden ratio typography grid.
 
 ## Documentation
 
-Framework documentation is available at [thememountain.github.io/acorn](https://thememountain.github.io/acorn/)
+Framework documentation is available at [thememountain.github.io/acorn](https://thememountain.github.io/documentation/acorn/)
 
 ## Issues
 
