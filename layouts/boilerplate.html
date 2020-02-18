@@ -23,21 +23,22 @@
     <style type="text/css">
 
       @import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
-      @media only screen {
-        .col, td, th, div, p {font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI","Roboto","Helvetica Neue",Arial,sans-serif;}
-        .serif {font-family: 'Merriweather', Georgia, serif;}
-        .sans-serif {font-family: 'Open Sans', Arial, sans-serif;}
-      }
 
       img {border: 0; line-height: 100%; vertical-align: middle;}
       .col {font-size: 16px; line-height: 25px; vertical-align: top;}
 
-      @media only screen and (max-width: 632px) {
-        .wrapper img {max-width: 100%;}
-        .container {width: 100%!important; -webkit-text-size-adjust: 100%;}
+      @media screen {
+        .col, td, th, div, p {font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI","Roboto","Helvetica Neue",Arial,sans-serif;}
+        .sans-serif {font-family: 'Open Sans', Arial, sans-serif;}
+        .serif {font-family: 'Merriweather', Georgia, serif;}
+        img {max-width: 100%;}
       }
 
-      @media only screen and (max-width: 480px) {
+      @media (max-width: 632px) {
+        .container {width: 100%!important;}
+      }
+
+      @media (max-width: 480px) {
         .col {
           box-sizing: border-box;
           display: inline-block!important;
@@ -131,7 +132,7 @@
 
     <div lang="en" style="display:none;font-size:0;line-height:0;"><!-- Add your preheader text here --></div>
 
-    <table lang="en" class="wrapper" bgcolor="#EEEEEE" cellpadding="16" cellspacing="0" role="presentation" width="100%">
+    <table lang="en" bgcolor="#EEEEEE" cellpadding="16" cellspacing="0" role="presentation" width="100%">
       <tr>
         <td align="center">
           <table class="container" bgcolor="#FFFFFF" cellpadding="0" cellspacing="0" role="presentation" width="600">
